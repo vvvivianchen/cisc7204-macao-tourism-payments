@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CHEN RUXIN's data science portfolio and CISC7204 semester project.">
+  <title>CHEN RUXIN | Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">CR</a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">Data science portfolio · CISC7204</p>
+        <h1 id="hero-title">Turning public data into clear, reproducible evidence.</h1>
+        <p class="hero-copy">I am CHEN RUXIN, developing practical skills in Python, data analysis and visualization. My work focuses on asking careful questions, documenting each step and communicating results without overstating what the data can show.</p>
+        <div class="actions">
+          <a class="button primary" href="#project">View featured project</a>
+          <a class="button secondary" href="https://github.com/vvvivianchen/cisc7204-macao-tourism-payments">Open repository</a>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="Portfolio principles">
+        <span>01</span>
+        <h2>Question. Analyse. Explain.</h2>
+        <p>A portfolio built around responsible interpretation and work that another student can reproduce.</p>
+      </aside>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="section-label">About me</p>
+        <h2 id="about-title">A careful approach to applied analysis</h2>
+      </div>
+      <p>I use Python to clean and combine data, explore relationships and create readable visual explanations. I am especially interested in translating an applied research question into an analysis whose assumptions, limitations and data sources are visible to the reader.</p>
+    </section>
+
+    <section class="project" id="project" aria-labelledby="project-title">
+      <div class="project-heading">
+        <div>
+          <p class="section-label">Featured semester project</p>
+          <h2 id="project-title">Inbound Tourism and Electronic Payment Activity in Macao’s Restaurant Sector</h2>
+        </div>
+        <span class="status">Completed analysis</span>
+      </div>
+
+      <div class="question-card">
+        <p class="card-label">Research question</p>
+        <p>Between January 2025 and September 2026, how were monthly overnight and same-day visitor arrivals associated with the electronic payment transaction value of restaurants and similar establishments in Macao?</p>
+      </div>
+
+      <figure>
+        <img src="visuals/fig3_index.png" alt="Indexed monthly restaurant electronic payments, overnight visitors and same-day visitors from January 2025 to September 2026">
+        <figcaption>Relative monthly movement, indexed to January 2025 = 100. Source: Statistics and Census Service of Macao (DSEC).</figcaption>
+      </figure>
+
+      <div class="project-grid">
+        <article>
+          <p class="card-label">Approach</p>
+          <p>I combined 21 months of public aggregate statistics, checked the merged time series and compared levels, year-on-year growth and month-to-month changes. The analysis includes correlations, exploratory regression and diagnostic checks.</p>
+        </article>
+        <article>
+          <p class="card-label">Key finding</p>
+          <p>Restaurant electronic payments moved positively with both visitor groups. Level correlations were 0.815 for same-day arrivals and 0.730 for overnight arrivals. These results describe association, not causation.</p>
+        </article>
+        <article>
+          <p class="card-label">Limitation</p>
+          <p>The sample is short, electronic payments exclude cash and include resident spending, and the two visitor groups move closely together. Their separate regression effects should therefore be interpreted cautiously.</p>
+        </article>
+      </div>
+
+      <a class="text-link" href="https://github.com/vvvivianchen/cisc7204-macao-tourism-payments">Explore the notebook, data documentation and all six figures →</a>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+      <div>
+        <p class="section-label">Technical skills</p>
+        <h2 id="skills-title">Tools used in this portfolio</h2>
+      </div>
+      <ul>
+        <li><span>Python</span>pandas, NumPy and reproducible notebooks</li>
+        <li><span>Analysis</span>Data cleaning, EDA, correlation and regression</li>
+        <li><span>Visualization</span>Matplotlib, labels and evidence-led annotation</li>
+        <li><span>Documentation</span>GitHub, README files and responsible data sharing</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>CHEN RUXIN · Data Science Portfolio · 2026</p>
+    <a href="https://github.com/vvvivianchen">GitHub profile</a>
+  </footer>
+</body>
+</html>
