@@ -6,7 +6,7 @@ Peer review completed and the resulting improvements were committed on 16 Novemb
 
 ## Reviewer
 
-- **Name:** Classmate reviewer (name not provided)
+- **Name:** Xie Ziqi
 - **Review date:** 16 November 2026
 - **Page or figure reviewed:** Portfolio website project showcase, featured visualization and mobile layout
 
