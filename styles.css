@@ -106,11 +106,18 @@ footer p { margin: 0; }
 }
 
 @media (max-width: 560px) {
-  .site-header, main, footer { width: min(100% - 28px, 1120px); }
-  nav { gap: 14px; }
-  h1 { font-size: 3.25rem; }
-  .about, .skills, .project { padding: 70px 0; }
-  .question-card { padding: 24px; }
+  .site-header, main, footer { width: min(100% - 24px, 1120px); }
+  .site-header { min-height: 72px; gap: 14px; }
+  nav { flex-wrap: wrap; justify-content: flex-end; gap: 6px 14px; }
+  nav a { font-size: .84rem; }
+  h1 { font-size: clamp(2.65rem, 13vw, 3.25rem); }
+  .hero { padding: 54px 0; gap: 34px; }
+  .hero-note { padding: 22px 0 22px 20px; }
+  .about, .skills, .project { padding: 62px 0; }
+  .question-card { margin-top: 36px; padding: 22px; }
+  figure { padding: 10px; overflow: hidden; }
+  figcaption { padding-inline: 2px; }
+  .project-grid article { padding: 22px; }
   .skills li span { display: block; width: auto; margin-bottom: 4px; }
   footer { display: block; }
   footer a { display: inline-block; margin-top: 10px; }
